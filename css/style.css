@@ -1,0 +1,98 @@
+body 
+{
+    background-color: #24353F;
+}
+
+.navbar
+{
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+.navbar button
+{
+    border-color: #FFC107;
+    color: white;
+}
+.navbar button:hover
+{
+    background-color:#FFC107 ;
+}
+
+
+div.login-page div.login-cart 
+{
+    color: white;
+    width: 65%;
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+div.login-page div.login-cart h1 
+{
+    font-family:  "Titillium Web", sans-serif;
+    color: #17A2B8;
+}
+
+div.login-page div.login-cart form input 
+{
+    background-color: #24353F;
+
+}
+.form-control:focus
+{
+    box-shadow: none;
+}
+
+div.login-page div.login-cart form input::placeholder 
+{
+    color: white;
+    opacity: 0.4;
+
+}
+
+div.login-page div.login-cart form button 
+{
+    background-color: #24353F;
+    color: #17A2B8;
+    border-color: #17A2B8;
+    transition: background-color 0.3s ;
+}
+div.login-page div.login-cart form button:hover
+{
+    background-color:#17A2B8;
+    color:white
+}
+
+div.login-page div.login-cart a
+{
+    color: white;
+    text-decoration: none;
+    transition: text-decoration 0.1s;
+}
+
+div.login-page div.login-cart a:hover
+{
+    text-decoration: underline;
+}
+
+
+div.login-page div.container div.welcome-page
+{
+    color: #17A2B8;
+    width: 65%;
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    margin-top: 15%;
+}
+
+.green-color
+{
+    color: green;
+}
+
+a{
+    cursor: pointer;
+}
+
+

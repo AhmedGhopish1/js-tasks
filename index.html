@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar d-none ">
+        <div class="container ">
+          <a class="navbar-brand ms-5 text-light" href="#">SMART LOGIN</a>
+            
+              <button class="nav-button btn  me-5" type="submit">Logout</button>
+            
+          
+        </div>
+      </nav>
+
+
+    <div class="login-page w-100 overflow-auto ">
+
+        <div class="container"> 
+            <div class="login-cart mx-auto text-center mt-5 pt-5 mb-5 d-block">
+                <h1>Smart Login System</h1>
+                <form class="sign-in-form mx-3 mb-3 d-block">
+                    <input type="email" class="log-mail form-control my-3 text-white" placeholder="Enter your email">
+                    <input type="password" class="log-pass form-control text-white" placeholder="Enter your password">
+                    <button type="button" class="login-button form-control mt-4">Login</button>
+                    <p class="pb-5 pt-4">
+                        Don’t have an account? 
+                        <a type="button" class="sign-up-link ">Sign Up</a>
+                       </p>
+                </form>
+
+                <form class="sign-Up-form mx-3 mb-3 d-none">
+                    <input type="text" class="name form-control my-3 text-white "placeholder="Enter your name">
+                    <input type="email" class=" email form-control my-3 text-light" placeholder="Enter your email">
+                    <input type="password" class="pass form-control text-light" placeholder="Enter your password">
+                    <button type="button" class="signUp form-control mt-4">Sign Up</button>
+                    <p class="pb-5 pt-4">
+                        You have an account? 
+                        <a href="" class="sign-in-link">Signin</a>
+                       </p>
+                </form>
+                
+            </div>
+           
+
+            <div class="welcome-page mx-auto text-center pt-5 mb-5 pb-5 d-none">
+                
+               
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
